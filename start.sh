@@ -13,11 +13,11 @@ dossh() {
     while true
     do
         ssh ${UNAME}@${VM_IP}
-        sleep 3
         if [ $? -eq 0 ]
         then
             exit 0
         fi
+        sleep 3
     done
 }
 
