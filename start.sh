@@ -11,7 +11,7 @@ sleep 30
 
 # Try connecting SSH
 echo "Connecting to the VM via SSH"
-while True
+while true
 do
     ssh root@$VM_IP
     sleep 3
